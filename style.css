@@ -79,4 +79,11 @@ body {
     .hero h1 {
         font-size: 28px;
     }
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Isse image round ho jayegi */
+    object-fit: cover; /* Isse image khichegi nahi */
+    margin-bottom: 15px;
+}
 }
